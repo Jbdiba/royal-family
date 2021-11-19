@@ -1,0 +1,23 @@
+{
+  "name": "royal-family",
+  "version": "1.0.0",
+  "description": "",
+  "main": "royal-family.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jbdiba/royal-family.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jbdiba/royal-family/issues"
+  },
+  "homepage": "https://github.com/Jbdiba/royal-family#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
