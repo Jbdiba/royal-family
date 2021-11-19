@@ -15,11 +15,15 @@ console.log (george.childOf());
 let elizabeth = new Royal ("Elizabeth" , []);
 console.log (elizabeth.childOf());
 
-let elizabethTwo = new Royal ("Elizabeth2", ["George" , "Elizabeth"]);
-console.log(elizabeth2.childOf());
+let elizabethTwo = new Royal ("ElizabethTwo", [george , elizabeth]);
+console.log(elizabethTwo.childOf());
 
-let william = new Royal ("William", ["Charles" , "Diana"]);
+let philip = new Royal ("Philip", []);
+
+let charles = new Royal ("Charles", [philip , elizabethTwo]);
+console.log(charles.childOf());
+
+let diana = new Royal ("Diana", []);
+
+let william = new Royal ("William", [charles , diana]);
 console.log(william.childOf());
-
-let charlotte = new Royal ("Charlotte", ["William" , "Catherine"]);
-console.log(charlotte.childOf());orge
